@@ -1,0 +1,23 @@
+{
+  "name": "tap-assets",
+  "displayName": "Tap Assets Manager",
+  "keg": {
+    "cli": {
+      "link": {
+        "name": "assets"
+      }
+    },
+    "routes": {
+      "/": "RootContainer"
+    },
+    "tapResolver": {
+      "paths": {
+        "tapSrc": "./src"
+      }
+    }
+  },
+  "expo": {
+    "name": "tap-assets",
+    "slug": "tap-assets"
+  }
+}

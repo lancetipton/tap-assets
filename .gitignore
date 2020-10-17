@@ -1,0 +1,205 @@
+node_modules/
+.idea/
+.DS_Store
+lerna-debug.log
+yarn-error.log
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+yarn-error.log
+reports/
+
+# macOS
+.DS_Store
+
+!/**/.gitkeep
+!.gitkeep
+.kegConfig/**
+!.kegConfig/.gitkeep
+jsconfig.json
+
+.vscode
+core/base/assets/index.js
+kc-touch.js
+src/reports/cucumber/*
+!src/reports/cucumber/.gitkeep
+src/reports/archive/*
+!src/reports/archive/.gitkeep
+src/reports/*.json
+src/reports/*.html
+src/node_modules
+
+*.log
+src/*.log
+.DS_Store
+# SQL3
+*.sqlite
+ios/platform.sqlite
+
+**/clients/**/temp
+
+/temp_assets
+/builds
+/bundle
+
+# code coverage
+coverage/
+
+# OSX
+#
+.DS_Store
+
+/notes
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+external/**
+
+
+# Gradle
+#
+android/.gradle
+
+# Android Studio
+#
+.idea/
+*.iml
+local.properties
+/.vscode
+/tsconfig.json
+android/.project
+android/app/.project
+android/.settings/org.eclipse.buildship.core.prefs
+android/.classpath
+android/app/bin/
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/.classpath
+android/app/.settings/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+main.jsbundle
+ios/reactapp/main.ios.js
+ios/reactapp/main.ios.js.meta
+ios/reactapp/main.ios.jsbundle.meta
+android/app/src/main/assets/main.android.js
+android/app/src/main/assets/main.android.js.meta
+android/app/src/main/assets/main.android.jsbundle.meta
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!android/app/debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# RNFirebase specific
+#
+.expo/
+/ios/Pods/
+
+# RNFirebaseStarter
+.next
+
+# Ignore test report
+test-report.xml
+
+# Don't even know what this is
+*.tgz
+
+# Ingnore docker-sync deamon logs
+.docker-sync
+reports
+
+# Any local ENV files in the docker container folder
+repos/**/containers/**/.env
+repos/**/container/.env
+repos/**/container/run.sh
+!repos/**/build
+repos/**/run.sh
+repos/keg-core/core/base/assets
+repos/keg-core/core/base/assets/index.js
+repos/**/kc-touch.js
+repos/**/__generated__
+repos/**/retheme-hook.js
+repos/**/re-theme-touch.js
+repos/**/tests/reports/cucumber/*
+!repos/**/tests/reports/cucumber/.gitkeep
+repos/**/tests/reports/archive/*
+!repos/**/tests/reports/archive/.gitkeep
+repos/**/test/reports/*.json
+repos/**/test/reports/*.html
+repos/**/tests/node_modules
+
+repos/**/build
+
+# Taps and tap-release-client
+taps/**/*
+!taps/tap-release-client/
+!taps/tap-release-client/**/*
+taps/tap-release-client/node_modules
+taps/tap-release-client/container/.env
+taps/tap-release-client/container/run.sh
+taps/tap-release-client/run.sh
+taps/tap-release-client/kc-touch.js
+taps/tap-release-client/temp
+taps/tap-release-client/__generated__
+taps/tap-release-client/retheme-hook.js
+taps/tap-release-client/re-theme-touch.js
+taps/tap-release-client/tests/reports/cucumber/*
+!taps/tap-release-client/tests/reports/cucumber/.gitkeep
+taps/tap-release-client/tests/reports/archive/*
+!taps/tap-release-client/tests/reports/archive/.gitkeep
+taps/tap-release-client/test/reports/*.json
+taps/tap-release-client/test/reports/*.html
+taps/tap-release-client/tests/node_modules
+*.code-workspace
