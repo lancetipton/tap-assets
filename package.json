@@ -32,8 +32,8 @@
     "setup": "yarn install; cd node_modules/keg-core; yarn postinstall",
     "postinstall": "node scripts/postinstall.js",
     "web": "cd node_modules/keg-core; yarn web",
-    "svg:convert": "node ./tasks/svg/convert",
-    "svg:tree": "node ./tasks/svg/tree"
+    "svg:convert": "node ./tasks/svg/convert.js",
+    "svg:index": "node ./tasks/svg/indexFolder.js"
   },
   "dependencies": {
     "@svgr/cli": "^5.4.0",
