@@ -1,4 +1,4 @@
-export * from './500Px.js'
+export * from './Five00Px.js'
 export * from './Accessibility.js'
 export * from './AddressBook.js'
 export * from './AidKit.js'

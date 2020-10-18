@@ -3,7 +3,6 @@ import * as awesome from './awesome'
 import * as bootstrap from './bootstrap'
 import * as dev from './dev'
 import * as elusive from './elusive'
-import * as entypo from './entypo'
 import * as evil from './evil'
 import * as flag from './flag'
 import * as flat from './flat'
@@ -21,7 +20,7 @@ import * as mfglabs from './mfglabs'
 import * as oct from './oct'
 import * as open from './open'
 import * as payment from './payment'
-import * as payment from './payment-web'
+import * as paymentWeb from './payment-web'
 import * as simple from './simple'
 import * as subway from './subway'
 import * as typcn from './typcn'
@@ -36,7 +35,6 @@ export {
   bootstrap,
   dev,
   elusive,
-  entypo,
   evil,
   flag,
   flat,
@@ -54,7 +52,7 @@ export {
   oct,
   open,
   payment,
-  payment,
+  paymentWeb,
   simple,
   subway,
   typcn,

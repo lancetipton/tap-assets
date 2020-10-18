@@ -1,4 +1,4 @@
-export * from './3DRotation.js'
+export * from './ThreeDRotation.js'
 export * from './AcUnit.js'
 export * from './AccessAlarm.js'
 export * from './AccessAlarms.js'

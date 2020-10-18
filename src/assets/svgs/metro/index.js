@@ -1,4 +1,4 @@
-export * from './3DRotation.js'
+export * from './ThreeDRotation.js'
 export * from './Air.js'
 export * from './Airplane.js'
 export * from './Alarm.js'

@@ -1,4 +1,4 @@
-export * from './3List.js'
+export * from './ThreeList.js'
 export * from './AddFolder.js'
 export * from './Agent.js'
 export * from './Align2Bottom.js'

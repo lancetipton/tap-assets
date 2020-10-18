@@ -1,4 +1,4 @@
-export * from './500Px.js'
+export * from './Five00Px.js'
 export * from './Adjust.js'
 export * from './Adn.js'
 export * from './AlignCenter.js'
