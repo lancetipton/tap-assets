@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSortByAttributesAlt = (props) => {
+export const SortByAttributesAlt = (props) => {
   return (
     <SvgIcon
       {...props}

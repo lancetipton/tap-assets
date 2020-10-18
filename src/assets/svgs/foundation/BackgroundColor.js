@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgBackgroundColor = (props) => {
+export const BackgroundColor = (props) => {
   return (
     <SvgIcon
       {...props}

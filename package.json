@@ -37,7 +37,6 @@
   },
   "dependencies": {
     "@svgr/cli": "^5.4.0",
-    "auto-export-components": "^1.0.5",
     "keg-core": "npm:@keg-hub/keg-core@6.1.0"
   },
   "devDependencies": {
@@ -47,7 +46,6 @@
     "@keg-hub/spawn-cmd": "0.0.1",
     "axios": "0.19.2",
     "body-parser": "1.10.2",
-    "directory-tree": "^2.2.5",
     "dotenv": "8.0.0",
     "express": "4.11.1",
     "keg-core": "npm:@keg-hub/keg-core@6.1.0",

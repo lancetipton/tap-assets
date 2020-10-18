@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAndroidMoreVertical = (props) => {
+export const AndroidMoreVertical = (props) => {
   return (
     <SvgIcon
       {...props}

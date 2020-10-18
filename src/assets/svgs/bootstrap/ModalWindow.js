@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgModalWindow = (props) => {
+export const ModalWindow = (props) => {
   return (
     <SvgIcon
       {...props}

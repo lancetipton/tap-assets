@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgBackspaceOutline = (props) => {
+export const BackspaceOutline = (props) => {
   return (
     <SvgIcon
       {...props}

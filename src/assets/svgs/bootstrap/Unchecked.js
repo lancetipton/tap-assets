@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgUnchecked = (props) => {
+export const Unchecked = (props) => {
   return (
     <SvgIcon
       {...props}

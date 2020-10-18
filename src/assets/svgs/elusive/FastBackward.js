@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFastBackward = (props) => {
+export const FastBackward = (props) => {
   return (
     <SvgIcon
       {...props}

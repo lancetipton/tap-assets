@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgRandom = (props) => {
+export const Random = (props) => {
   return (
     <SvgIcon
       {...props}

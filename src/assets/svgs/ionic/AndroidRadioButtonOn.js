@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAndroidRadioButtonOn = (props) => {
+export const AndroidRadioButtonOn = (props) => {
   return (
     <SvgIcon
       {...props}
