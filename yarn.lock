@@ -455,6 +455,13 @@ async-limiter@~1.0.0:
   resolved "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
+auto-export-components@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/auto-export-components/-/auto-export-components-1.0.5.tgz#9454e686485a2d25b1199af3ee0d58e6b36bba70"
+  integrity sha512-HIsEHMnYGreMZs2wC9BzanhXDeqwFkE4cGJ9lHUBia+6pyjI71l5YeM29KWgWClOOOCplBXhKZs80Abaw0jUOQ==
+  dependencies:
+    lodash "4.17.19"
+
 axios@0.19.2:
   version "0.19.2"
   resolved "https://registry.npmjs.org/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
@@ -946,6 +953,11 @@ destroy@1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.0.3.tgz#b433b4724e71fd8551d9885174851c5fc377e2c9"
   integrity sha1-tDO0ck5x/YVR2YhRdIUcX8N34sk=
+
+directory-tree@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.npmjs.org/directory-tree/-/directory-tree-2.2.5.tgz#43d167eeb87b57640cc832f794f88431ebd47300"
+  integrity sha512-qmeuql8N7hQB5b+cnlvbcHSjKBNpRjLY5KcvyFd9CTC5uTN7sJshEQ/ExZidAcEUEYcC/76i8ikLtbBMG81YRg==
 
 dom-serializer@0:
   version "0.2.2"
@@ -1691,6 +1703,11 @@ load-json-file@^4.0.0:
     parse-json "^4.0.0"
     pify "^3.0.0"
     strip-bom "^3.0.0"
+
+lodash@4.17.19:
+  version "4.17.19"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.20"
