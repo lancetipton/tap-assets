@@ -4,12 +4,18 @@ const { tapRoot } = require('./tapRoot')
 
 const ensureArray = data => isArr(data) ? data : data.split(' ')
 
-const runCmd = (cmd, args, env={}) => {
-  return spawnCmd(cmd, {
-    args,
-    options: { env: { ...process.env, ...env } },
-    cwd: tapRoot
-  })
+const runCmd = (cmd, args, config={}) => {
+  try {
+    return spawnCmd(cmd, {
+      ...config,
+      args,
+      options: { ...config.options, env: { ...process.env, ...config.env } },
+      cwd: tapRoot
+    })
+  }
+  catch(err){
+    console.error(err.message)
+  }
 }
 
 const yarn = (args, ...opts) => runCmd(`yarn`, ensureArray(args), ...opts)

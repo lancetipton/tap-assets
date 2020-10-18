@@ -5,17 +5,16 @@ const path = require('path')
 const { yarn } = require('../helpers/process')
 const { executeTask } = require('../helpers/executeTask')
 const { assetsRoot } = require('../helpers/tapRoot')
+const { isPathDirectory, writeFile, getSavePath } = require('../helpers/locations')
 
-const defArgs = [
-  `svgr`,
-  `--config-file`,
-  path.join(__dirname, '../../configs/svgr.config.js')
-]
+const outputIdentifier = `import React from "react";`
 
-const isFolderPath = (cmd, location, isDir) => {
+const defArgs = [`svgr`]
+
+const addOutputParams = (cmd, locPath, outPath, isDir) => {
   return isDir
-    ? cmd.concat([`-d`, location])
-    : cmd.concat([location])
+    ? cmd.concat([`-d`, outPath, locPath])
+    : cmd.concat([locPath])
 }
 
 const addTemplate = (cmd, template) => {
@@ -26,30 +25,43 @@ const addTemplate = (cmd, template) => {
   return cmd.concat(templateArr)
 }
 
-const getOutputPath = (cmd, output, location, isDir) => {
-  return output && isDir
-    ? cmd.concat([`--out-dir`, output])
-    : cmd
+const onStdOut = outPath => {
+  return data => {
+    data.indexOf(outputIdentifier) !== -1
+      ? writeFile(outPath, data)
+      : process.stdout.write(data)
+  }
 }
 
+const getPaths = (location, output) => {
+  const locationData = isPathDirectory(assetsRoot, location)
+  const outputData = isPathDirectory(assetsRoot, output, locationData.isDir)
+  const isDir = locationData.isDir && outputData.isDir
+
+  return {
+    isDir,
+    locPath: locationData.fullPath,
+    outPath: getSavePath(outputData.fullPath, locationData.fullPath, isDir),
+  }
+}
 
 const convertSvg = async (args) => {
   const { params } = args
   const { dimensions, location, native, output, template } = params
-  const fullLocation = path.join(assetsRoot, location)
-  const isDir = fs.statSync(fullLocation).isDirectory()
 
   let cmd = Array.from(defArgs)
   native && cmd.push(`--native`)
   !dimensions && cmd.push(`--no-dimensions`)
-  
-  cmd = isFolderPath(cmd, fullLocation, isDir)
-  cmd =  output ? getOutputPath(cmd, output, location, isDir) : cmd
   cmd = addTemplate(cmd, template)
 
-  const resp = await yarn(cmd)
+  const { locPath, outPath, isDir } = getPaths(location, output)
+  cmd = addOutputParams(cmd, locPath, outPath, isDir)
+
+  const configOpts = !isDir && { onStdOut: onStdOut(outPath), options: { stdio: 'pipe' } } || {}
+  const resp = await yarn(cmd, configOpts)
 
   return resp
+
 }
 
 const convert = {
@@ -68,7 +80,7 @@ const convert = {
       alias: [ 'out' ],
       description: 'The output location for exported svgs',
       example: `yarn svg:convert --output src/assets/svgs`,
-      default: `assets/svgs`,
+      default: `src/assets/svgs`,
     },
     native: {
       alias: [ 'nat' ],

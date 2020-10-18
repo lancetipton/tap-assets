@@ -1,0 +1,13 @@
+import React from "react";
+import { SvgIcon } from "@keg-hub/keg-components";
+export const SvgList = (props) => {
+  return (
+    <SvgIcon
+      {...props}
+      viewBox={"0 0 1200 1200"}
+      delta={
+        "M0 983.901h216.099V1200H0V983.901zm0 0h216.099V1200H0V983.901zm0-327.966h216.099v216.099H0V655.935zm0-327.968h216.099v216.098H0V327.967zM0 0h216.099v216.098H0V0zm317.596 983.901H1200V1200H317.596V983.901zm0 0H1200V1200H317.596V983.901zm0-327.966H1200v216.099H317.596V655.935zm0-327.968H1200v216.098H317.596V327.967zm0-327.967H1200v216.098H317.596V0z"
+      }
+    />
+  );
+};
