@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFullscreenEnter = (props) => {
+export const FullscreenEnter = (props) => {
   return (
     <SvgIcon
       {...props}

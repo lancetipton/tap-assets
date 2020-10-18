@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgWordpressIcon = (props) => {
+export const WordpressIcon = (props) => {
   return (
     <SvgIcon
       {...props}

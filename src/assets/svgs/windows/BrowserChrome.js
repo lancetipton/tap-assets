@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgBrowserChrome = (props) => {
+export const BrowserChrome = (props) => {
   return (
     <SvgIcon
       {...props}

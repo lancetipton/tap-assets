@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAutoMergeCell = (props) => {
+export const AutoMergeCell = (props) => {
   return (
     <SvgIcon
       {...props}

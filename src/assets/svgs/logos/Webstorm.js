@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgWebstorm = (props) => {
+export const Webstorm = (props) => {
   return (
     <SvgIcon
       {...props}

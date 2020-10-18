@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgMixmax = (props) => {
+export const Mixmax = (props) => {
   return (
     <SvgIcon
       {...props}

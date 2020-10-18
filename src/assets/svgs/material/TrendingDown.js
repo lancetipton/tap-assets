@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgTrendingDown = (props) => {
+export const TrendingDown = (props) => {
   return (
     <SvgIcon
       {...props}

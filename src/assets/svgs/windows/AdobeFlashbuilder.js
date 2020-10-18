@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAdobeFlashbuilder = (props) => {
+export const AdobeFlashbuilder = (props) => {
   return (
     <SvgIcon
       {...props}

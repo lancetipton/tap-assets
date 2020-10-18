@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgPageSolidMove = (props) => {
+export const PageSolidMove = (props) => {
   return (
     <SvgIcon
       {...props}

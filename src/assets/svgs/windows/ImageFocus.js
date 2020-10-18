@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgImageFocus = (props) => {
+export const ImageFocus = (props) => {
   return (
     <SvgIcon
       {...props}

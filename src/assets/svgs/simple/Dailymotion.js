@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgDailymotion = (props) => {
+export const Dailymotion = (props) => {
   return (
     <SvgIcon
       {...props}

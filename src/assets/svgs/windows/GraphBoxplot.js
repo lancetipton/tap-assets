@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgGraphBoxplot = (props) => {
+export const GraphBoxplot = (props) => {
   return (
     <SvgIcon
       {...props}

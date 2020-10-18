@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSpellcheck = (props) => {
+export const Spellcheck = (props) => {
   return (
     <SvgIcon
       {...props}

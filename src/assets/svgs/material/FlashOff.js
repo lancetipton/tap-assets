@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFlashOff = (props) => {
+export const FlashOff = (props) => {
   return (
     <SvgIcon
       {...props}

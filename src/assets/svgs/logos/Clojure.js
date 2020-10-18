@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgClojure = (props) => {
+export const Clojure = (props) => {
   return (
     <SvgIcon
       {...props}

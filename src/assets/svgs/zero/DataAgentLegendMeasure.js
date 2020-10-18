@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgDataAgentLegendMeasure = (props) => {
+export const DataAgentLegendMeasure = (props) => {
   return (
     <SvgIcon
       {...props}

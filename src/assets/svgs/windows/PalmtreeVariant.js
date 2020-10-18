@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgPalmtreeVariant = (props) => {
+export const PalmtreeVariant = (props) => {
   return (
     <SvgIcon
       {...props}

@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgPouchdb = (props) => {
+export const Pouchdb = (props) => {
   return (
     <SvgIcon
       {...props}

@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSortAlphabeticallyOutline = (props) => {
+export const SortAlphabeticallyOutline = (props) => {
   return (
     <SvgIcon
       {...props}

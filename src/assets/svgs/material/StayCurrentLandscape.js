@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgStayCurrentLandscape = (props) => {
+export const StayCurrentLandscape = (props) => {
   return (
     <SvgIcon
       {...props}

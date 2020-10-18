@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgStraighten = (props) => {
+export const Straighten = (props) => {
   return (
     <SvgIcon
       {...props}

@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgCursorInformation = (props) => {
+export const CursorInformation = (props) => {
   return (
     <SvgIcon
       {...props}

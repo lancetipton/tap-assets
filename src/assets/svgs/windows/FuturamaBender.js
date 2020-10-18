@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFuturamaBender = (props) => {
+export const FuturamaBender = (props) => {
   return (
     <SvgIcon
       {...props}

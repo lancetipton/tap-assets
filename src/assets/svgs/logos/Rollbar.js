@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgRollbar = (props) => {
+export const Rollbar = (props) => {
   return (
     <SvgIcon
       {...props}

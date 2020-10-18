@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFormatIndentDecrease = (props) => {
+export const FormatIndentDecrease = (props) => {
   return (
     <SvgIcon
       {...props}

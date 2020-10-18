@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgCheckBoxOutlineBlank = (props) => {
+export const CheckBoxOutlineBlank = (props) => {
   return (
     <SvgIcon
       {...props}

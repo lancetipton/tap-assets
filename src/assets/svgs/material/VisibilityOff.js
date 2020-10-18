@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgVisibilityOff = (props) => {
+export const VisibilityOff = (props) => {
   return (
     <SvgIcon
       {...props}

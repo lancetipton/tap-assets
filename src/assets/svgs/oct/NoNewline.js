@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgNoNewline = (props) => {
+export const NoNewline = (props) => {
   return (
     <SvgIcon
       {...props}

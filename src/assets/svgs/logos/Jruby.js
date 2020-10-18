@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgJruby = (props) => {
+export const Jruby = (props) => {
   return (
     <SvgIcon
       {...props}

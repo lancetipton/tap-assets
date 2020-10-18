@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgDiffRenamed = (props) => {
+export const DiffRenamed = (props) => {
   return (
     <SvgIcon
       {...props}

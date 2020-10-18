@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgLayerPerspectiveUp = (props) => {
+export const LayerPerspectiveUp = (props) => {
   return (
     <SvgIcon
       {...props}

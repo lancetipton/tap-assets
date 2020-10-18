@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSettingsOverscan = (props) => {
+export const SettingsOverscan = (props) => {
   return (
     <SvgIcon
       {...props}

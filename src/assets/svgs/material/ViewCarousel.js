@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgViewCarousel = (props) => {
+export const ViewCarousel = (props) => {
   return (
     <SvgIcon
       {...props}

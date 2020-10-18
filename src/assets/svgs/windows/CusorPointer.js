@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgCusorPointer = (props) => {
+export const CusorPointer = (props) => {
   return (
     <SvgIcon
       {...props}

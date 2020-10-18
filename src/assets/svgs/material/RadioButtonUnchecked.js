@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgRadioButtonUnchecked = (props) => {
+export const RadioButtonUnchecked = (props) => {
   return (
     <SvgIcon
       {...props}

@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgLeakRemove = (props) => {
+export const LeakRemove = (props) => {
   return (
     <SvgIcon
       {...props}

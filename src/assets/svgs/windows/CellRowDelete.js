@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgCellRowDelete = (props) => {
+export const CellRowDelete = (props) => {
   return (
     <SvgIcon
       {...props}

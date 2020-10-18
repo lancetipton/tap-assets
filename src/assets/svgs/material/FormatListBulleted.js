@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFormatListBulleted = (props) => {
+export const FormatListBulleted = (props) => {
   return (
     <SvgIcon
       {...props}

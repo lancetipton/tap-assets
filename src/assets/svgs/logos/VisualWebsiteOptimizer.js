@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgVisualWebsiteOptimizer = (props) => {
+export const VisualWebsiteOptimizer = (props) => {
   return (
     <SvgIcon
       {...props}

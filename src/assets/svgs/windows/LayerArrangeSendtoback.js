@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgLayerArrangeSendtoback = (props) => {
+export const LayerArrangeSendtoback = (props) => {
   return (
     <SvgIcon
       {...props}

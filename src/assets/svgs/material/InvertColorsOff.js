@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgInvertColorsOff = (props) => {
+export const InvertColorsOff = (props) => {
   return (
     <SvgIcon
       {...props}

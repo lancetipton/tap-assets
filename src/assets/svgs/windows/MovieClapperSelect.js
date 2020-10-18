@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgMovieClapperSelect = (props) => {
+export const MovieClapperSelect = (props) => {
   return (
     <SvgIcon
       {...props}

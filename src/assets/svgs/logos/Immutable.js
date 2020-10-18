@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgImmutable = (props) => {
+export const Immutable = (props) => {
   return (
     <SvgIcon
       {...props}

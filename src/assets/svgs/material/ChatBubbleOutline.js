@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgChatBubbleOutline = (props) => {
+export const ChatBubbleOutline = (props) => {
   return (
     <SvgIcon
       {...props}

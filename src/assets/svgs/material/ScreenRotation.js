@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgScreenRotation = (props) => {
+export const ScreenRotation = (props) => {
   return (
     <SvgIcon
       {...props}

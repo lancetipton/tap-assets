@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgImageAspectRatio = (props) => {
+export const ImageAspectRatio = (props) => {
   return (
     <SvgIcon
       {...props}

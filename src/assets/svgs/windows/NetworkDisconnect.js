@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgNetworkDisconnect = (props) => {
+export const NetworkDisconnect = (props) => {
   return (
     <SvgIcon
       {...props}

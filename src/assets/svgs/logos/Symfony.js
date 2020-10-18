@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSymfony = (props) => {
+export const Symfony = (props) => {
   return (
     <SvgIcon
       {...props}

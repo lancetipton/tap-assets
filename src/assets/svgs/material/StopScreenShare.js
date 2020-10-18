@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgStopScreenShare = (props) => {
+export const StopScreenShare = (props) => {
   return (
     <SvgIcon
       {...props}

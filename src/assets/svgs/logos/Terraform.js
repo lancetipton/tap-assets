@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgTerraform = (props) => {
+export const Terraform = (props) => {
   return (
     <SvgIcon
       {...props}

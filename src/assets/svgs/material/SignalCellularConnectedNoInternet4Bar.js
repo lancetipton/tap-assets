@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSignalCellularConnectedNoInternet4Bar = (props) => {
+export const SignalCellularConnectedNoInternet4Bar = (props) => {
   return (
     <SvgIcon
       {...props}

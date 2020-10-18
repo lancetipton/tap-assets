@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgScreenLockLandscape = (props) => {
+export const ScreenLockLandscape = (props) => {
   return (
     <SvgIcon
       {...props}

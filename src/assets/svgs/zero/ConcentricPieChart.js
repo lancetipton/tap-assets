@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgConcentricPieChart = (props) => {
+export const ConcentricPieChart = (props) => {
   return (
     <SvgIcon
       {...props}

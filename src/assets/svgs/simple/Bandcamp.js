@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgBandcamp = (props) => {
+export const Bandcamp = (props) => {
   return (
     <SvgIcon
       {...props}

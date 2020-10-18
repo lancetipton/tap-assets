@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgSkipPrevious = (props) => {
+export const SkipPrevious = (props) => {
   return (
     <SvgIcon
       {...props}

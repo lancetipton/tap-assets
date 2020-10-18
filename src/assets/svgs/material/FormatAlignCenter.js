@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFormatAlignCenter = (props) => {
+export const FormatAlignCenter = (props) => {
   return (
     <SvgIcon
       {...props}

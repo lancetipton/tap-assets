@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgClearInverseReflectHorizontal = (props) => {
+export const ClearInverseReflectHorizontal = (props) => {
   return (
     <SvgIcon
       {...props}

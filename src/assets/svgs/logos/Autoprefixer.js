@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAutoprefixer = (props) => {
+export const Autoprefixer = (props) => {
   return (
     <SvgIcon
       {...props}

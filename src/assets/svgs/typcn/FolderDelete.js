@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFolderDelete = (props) => {
+export const FolderDelete = (props) => {
   return (
     <SvgIcon
       {...props}

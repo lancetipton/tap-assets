@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgMediaStepBackward = (props) => {
+export const MediaStepBackward = (props) => {
   return (
     <SvgIcon
       {...props}

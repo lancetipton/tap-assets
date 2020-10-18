@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgPanoramaWideAngle = (props) => {
+export const PanoramaWideAngle = (props) => {
   return (
     <SvgIcon
       {...props}

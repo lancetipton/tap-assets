@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgQuantopian = (props) => {
+export const Quantopian = (props) => {
   return (
     <SvgIcon
       {...props}

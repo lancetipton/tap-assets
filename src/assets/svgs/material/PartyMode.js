@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgPartyMode = (props) => {
+export const PartyMode = (props) => {
   return (
     <SvgIcon
       {...props}

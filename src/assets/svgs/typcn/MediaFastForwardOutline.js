@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgMediaFastForwardOutline = (props) => {
+export const MediaFastForwardOutline = (props) => {
   return (
     <SvgIcon
       {...props}

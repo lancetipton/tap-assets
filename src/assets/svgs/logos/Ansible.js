@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgAnsible = (props) => {
+export const Ansible = (props) => {
   return (
     <SvgIcon
       {...props}

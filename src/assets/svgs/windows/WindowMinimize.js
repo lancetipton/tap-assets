@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgWindowMinimize = (props) => {
+export const WindowMinimize = (props) => {
   return (
     <SvgIcon
       {...props}

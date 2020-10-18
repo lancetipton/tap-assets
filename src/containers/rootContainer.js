@@ -1,6 +1,9 @@
 import React from 'react'
 import { useTheme } from '@keg-hub/re-theme'
 import { Section, Grid, Row, Text, withAppHeader } from 'SVComponents'
+import * as SVGIcons from 'SVAssets/svgs'
+
+console.log(SVGIcons)
 
 export const RootContainer = withAppHeader('Tap-Release-Client', props => {
   const theme = useTheme()

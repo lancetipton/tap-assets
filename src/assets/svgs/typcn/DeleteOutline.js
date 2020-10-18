@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgDeleteOutline = (props) => {
+export const DeleteOutline = (props) => {
   return (
     <SvgIcon
       {...props}

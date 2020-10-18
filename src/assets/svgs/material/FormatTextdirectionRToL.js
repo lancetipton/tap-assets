@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFormatTextdirectionRToL = (props) => {
+export const FormatTextdirectionRToL = (props) => {
   return (
     <SvgIcon
       {...props}

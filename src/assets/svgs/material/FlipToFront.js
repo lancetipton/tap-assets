@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFlipToFront = (props) => {
+export const FlipToFront = (props) => {
   return (
     <SvgIcon
       {...props}

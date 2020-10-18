@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgGroupDelete = (props) => {
+export const GroupDelete = (props) => {
   return (
     <SvgIcon
       {...props}

@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgInterfaceTextbox = (props) => {
+export const InterfaceTextbox = (props) => {
   return (
     <SvgIcon
       {...props}

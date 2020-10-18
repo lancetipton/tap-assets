@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgXamarin = (props) => {
+export const Xamarin = (props) => {
   return (
     <SvgIcon
       {...props}

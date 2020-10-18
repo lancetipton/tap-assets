@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgMapColorHover = (props) => {
+export const MapColorHover = (props) => {
   return (
     <SvgIcon
       {...props}

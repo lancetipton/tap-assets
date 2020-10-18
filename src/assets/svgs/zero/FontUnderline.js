@@ -1,6 +1,6 @@
 import React from "react";
 import { SvgIcon } from "@keg-hub/keg-components";
-export const SvgFontUnderline = (props) => {
+export const FontUnderline = (props) => {
   return (
     <SvgIcon
       {...props}
