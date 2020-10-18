@@ -1,2 +1,6 @@
 export * from 'SVComponents/hocs/tapIndex'
 export * from 'SVComponents/kegComponents'
+export * from 'SVComponents/svgIcon'
+export * from 'SVComponents/iconGrid'
+export * from 'SVComponents/page'
+export * from 'SVComponents/pager'

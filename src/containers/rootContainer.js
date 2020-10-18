@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { useTheme } from '@keg-hub/re-theme'
-import { Section, Grid, Row, Text, withAppHeader } from 'SVComponents'
+import { Pager, Section, withAppHeader } from 'SVComponents'
 import * as SVGIcons from 'SVAssets/svgs'
-
-console.log(SVGIcons)
+import { mapObj, wordCaps } from '@keg-hub/jsutils'
 
 export const RootContainer = withAppHeader('Tap-Release-Client', props => {
   const theme = useTheme()
+
+  const pages = useMemo(() => {
+    return mapObj(SVGIcons, (key, value) => {
+      return { name: wordCaps(key), items: value }
+    })
+  }, [ SVGIcons ])
 
   return (
     <Section
@@ -17,11 +22,7 @@ export const RootContainer = withAppHeader('Tap-Release-Client', props => {
         borderWidth: 0,
       }}
     >
-      <Grid style={theme.margin.all}>
-        <Row>
-          <Text>Tap into the Keg!</Text>
-        </Row>
-      </Grid>
+      <Pager pages={pages} />
     </Section>
   )
 })

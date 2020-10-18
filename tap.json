@@ -5,7 +5,8 @@
     "cli": {
       "link": {
         "name": "assets"
-      }
+      },
+      "tasks": "./tasks"
     },
     "routes": {
       "/": "RootContainer"
@@ -14,6 +15,16 @@
       "paths": {
         "tapSrc": "./src"
       }
+    },
+    "dependencies": {
+      "yarn": {
+        "@crowdlinker/react-native-pager": "0.2.3"
+      },
+      "expo": [
+        "react-native-gesture-handler",
+        "@react-native-community/viewpager",
+        "react-native-reanimated"
+      ]
     }
   },
   "expo": {
